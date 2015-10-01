@@ -259,7 +259,7 @@ ul.our-clients img { max-width:100%;}
 #footer.litex { background:#fafafa;}
 .footer-in { margin: 0 auto; padding-bottom:50px; color:#ccc; position:relative;  }
 .footer-in .columns { margin-top:20px;}
-.footer-in h4 { color:#c4c6c8; border-bottom:4px solid #252627; padding-bottom:6px; margin:0; margin:39px 0 21px 0; font-size:13px; text-align:center;  }
+.footer-in h4 { color:#c4c6c8; border-bottom:4px solid #252627; padding-bottom:6px; margin:0; margin:39px 0 21px 0; font-size:13px; text-align:left;  }
 .footer-in hr { border-color:#373737;}
 
 .footer-in .copyright-txt { font-size:12px; }

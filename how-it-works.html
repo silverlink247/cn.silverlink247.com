@@ -33,20 +33,8 @@ layout: default
         </article>
     </section>
 
-    <section class="four columns" id="side-nav">
-        <ul>
-            <li class="current"><a href="#">a. Installation and set up</a></li>
-            <li><a href="how-it-works-b.html">b. Staying connected with your loved ones</a></li>
-            <li><a href="how-it-works-c.html">c. Using user dashboard</a></li>
-            <li><a href="how-it-works-d.html">d. Using pendant</a></li>
-            <li><a href="how-it-works-e.html">e. Advanced data analytics</a>
-                <ul>
-                    <li><a href="#">Fall prediction</a></li>
-                    <li><a href="#">health progression monitoring</a></li>
-                </ul>
-            </li>
-        </ul>
-    </section>
+    {% include left-nav.html current_a="class='current'" %}
+
 
     <div class="white-space"></div>
 </section><!-- container -->

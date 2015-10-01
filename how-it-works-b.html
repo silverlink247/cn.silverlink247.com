@@ -20,15 +20,14 @@ layout: default
 
             <p>Once the system has been set up, you can stay updated on your loved one’s the daily activities by using
                 the SilverLink User Dashboard and setting up your notification preferences so that SilverLink can send
-                you an alert when something isn’t right. Your notification settings will permit the system to warn you
-                only when your predefined condition is met. For example, “No activity in AM”- based on this setting,
-                SilverLink will only send you an alert when there is no activity detected on the sensors from 12 am to
-                12 pm. You can also select who will be notified. One can also connect with your family member via
-                SilverMail, a feature that allows you to share videos and photos online.</p>
-            <br class="clear"/>
+                you an alert when something isn’t right.
+
+                We understand the importance of communication and so our SilverMail feature is designed to let you
+                connect with your friends and family by sharing videos and photos online.
+            </p>
 
             <div class="sixteen columns">
-                <!--<img src="images/how-it-works.png" alt="">-->
+                <img src="images/silvermail.png" alt="">
             </div>
 
             <hr class="vertical-space1">
@@ -36,20 +35,7 @@ layout: default
         </article>
     </section>
 
-    <section class="four columns" id="side-nav">
-        <ul>
-            <li><a href="how-it-works.html">a. Installation and set up</a></li>
-            <li class="current"><a href="#">b. Staying connected with your loved ones</a></li>
-            <li><a href="how-it-works-c.html">c. Using user dashboard</a></li>
-            <li><a href="how-it-works-d.html">d. Using pendant</a></li>
-            <li><a href="how-it-works-e.html">e. Advanced data analytics</a>
-                <ul>
-                    <li><a href="#">Fall prediction</a></li>
-                    <li><a href="#">health progression monitoring</a></li>
-                </ul>
-            </li>
-        </ul>
-    </section>
+    {% include left-nav.html current_b="class='current'" %}
 
     <div class="white-space"></div>
 </section><!-- container -->

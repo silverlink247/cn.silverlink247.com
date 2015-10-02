@@ -50,7 +50,7 @@ img.drod { padding:4px; background:#f2f6f8; border-radius: 7px;}
 .blox.section-bg4 { background:url(../images/contact-mpic1.jpg) no-repeat center; }
 .blox.section-bg1, .blox.section-bg4, .blox.section-bg5, .blox.section-bg6  { height:380px; margin-top:0; padding:0; border-top: 1px solid #d9d9d9; }
 .blox.section-bg5 { background:#384852 url(../images/pricing-tpbg1.jpg) no-repeat center; height:260px;  }
-.blox.section-bg6 { background:#384852 url(../images/pages-tpbg1.jpg) no-repeat center; height:260px; border-bottom:4px solid #e8e8e8;  }
+.blox.section-bg6 { background:#384852 url(../images/product1366.png) no-repeat center; height:260px; border-bottom:4px solid #e8e8e8;  }
 .blox.dark .mex-title { border-bottom: 4px solid rgba(255, 255, 255, 0.27);} 
 
 .parallax-sec, .parallax-sec2 { background:#eee url(../images/parallax-bg1.jpg) center bottom; background-repeat:no-repeat; background-size:cover;  min-height: 400px;  height: 490px;  margin: 0 auto;  width: 100%;  max-width: 1920px;  position: relative; }

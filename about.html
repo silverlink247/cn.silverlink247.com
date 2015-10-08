@@ -2,6 +2,7 @@
 layout: default
 about: class=current
 ---
+<script src="js/bootstrap-collapse.js"></script>
 <section id="headline">
     <div class="container">
         <hr class="vertical-space1">
@@ -63,7 +64,9 @@ about: class=current
                         (Expert) of the Smart and Connected (SCH) Program at the NSF (2014-2015). He is author/editor of
                         20 books, 280 SCI journal articles, and 150 refereed conference articles covering digital
                         library, data/text/web mining, business analytics, security informatics, and health informatics.
-                        His overall h-index is 76 (20,000 citations for 800 papers according to Google Scholar). Dr.
+                        His overall h-index is 76 (20,000 citations for 800 papers according to Google Scholar).</p>
+
+                    <p class="alignleft" style="display: none" id="more-chen">Dr.
                         Chen founded the Artificial Intelligence Lab at the University of Arizona in 1989, which has
                         received more than $40M in research funding from NSF, NIH, NLM, DOD, DOJ, CIA, DHS, and other
                         agencies (90 grants, 40 from NSF). He has served as Editor-in-Chief of major ACM/IEEE, and
@@ -79,10 +82,13 @@ about: class=current
                         Scientific Counselor of the National Library of Medicine and a visiting chair professor at
                         several universities in China and Taiwan. He is a leader in health analytics (data and text
                         mining; health big data) and security informatics (counter terrorism and cyber security
-                        analytics; security big data) research. See: http://ai.arizona.edu/hchen
+                        analytics; security big data) research.
+                        See: <a href="http://ai.arizona.edu/hchen" class="magicmore" target="_blank">http://ai.arizona.edu/hchen</a>
+                    </p>
 
-                        <a href="http://ai.arizona.edu/hchen" class="magicmore" target="_blank">Learn
-                            more</a></p>
+                    <p>
+                        <a class="toggle"><span id="open" >Show more <i class="icomoon-arrow-down"></i></span></a>
+                    </p>
 
                 </figcaption>
             </figure>
@@ -100,7 +106,7 @@ about: class=current
                         medicine to residents in training and medical students in both the inpatient hospital setting
                         and outpatient clinic and works closely with CIC to advise on healthcare data mining and disease
                         progression, especially for diabetes.<br></p>
-                    <hr class="vertical-space1">
+                    <hr class="vertical-space3">
 
                 </figcaption>
             </figure>
@@ -249,3 +255,17 @@ about: class=current
     <hr class="vertical-space2">
 </section>
 
+
+<script>
+
+    $( "a").on('click', 'span#open', function() {
+        $( "#more-chen" ).toggle( "slow");
+        $(".toggle").html('<span id="close" >Show less <i class="icomoon-arrow-up"></i></span>');
+    });
+
+    $( "a" ).on('click', 'span#close', function() {
+        $( "#more-chen" ).toggle( "slow");
+        $(".toggle").html('<span id="open" >Show more <i class="icomoon-arrow-down"></i></span>');
+    });
+
+</script>
